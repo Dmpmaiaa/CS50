@@ -1,0 +1,154 @@
+main {
+    min-height: 100%;
+    background-color: white;
+    font-family: arial, sans-seriff;
+  }
+  
+  #TopNav {
+    display: flex;
+    vertical-align: middle;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: flex-end;
+    font-size: 13px;
+  }
+  
+  .text {
+    margin-top: 10px;
+  }
+  
+  #email img {
+    background-size: 32px 32px;
+    border: 0;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+  }
+  
+  #TopNav a {
+    margin-left: 20px;
+  }
+  
+  #MidPage {
+    display: block;
+    text-align: center;
+  }
+  
+  #Google {
+    height: 92px;
+    width: 272px;
+    padding-top: 109px;
+  }
+  
+  /*** Search box ***/
+  
+  #MG {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    margin-bottom: 18px;
+  }
+  
+  form input {
+    width: 400px;
+    height: 40px;
+    margin-left: 15px;
+    border: none white;
+  }
+  
+  #MG img {
+    margin-top: 10px;
+    height: 20px;
+    margin-left: 10px;
+    color: #ccc;
+  }
+ 
+  
+  
+  .btns {
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #footer {
+    bottom:0;
+    left:0;
+    z-index: 104;
+    position:fixed;
+    background-color: #f2f2f2;
+    width: 100vw;
+    border-top: 1px solid #afafaf;
+    font-size: 14px;
+    line-height: 40px;
+    
+  }
+  
+  #box1{
+    border-bottom: 1px solid white;
+    display:block;
+  }
+  
+  #box1 p{
+    font-size: 15px;
+    margin-left:30px;
+    text-align: left;
+    color: rgb(0, 0, 0, 54);
+    
+    
+  }
+  
+  #right_list span{
+    float:right;
+    margin-right: 30px;
+    white-space: nowrap;
+    
+  }
+  
+  #left_list span{
+    
+    text-align:left;
+    margin-left: 35px;
+    white-space: nowrap;
+  }
+  
+  #box2{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  /**Hovers**/
+  
+  
+  .text:hover , .botLI:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: red;
+  }
+  
+  .btns:hover{
+
+    color: -internal-light-dark(buttontext, rgb(170, 170, 170));
+      background-color: -internal-light-dark(rgb(239, 239, 239), rgb(74, 74, 74));
+      box-sizing: border-box;
+      padding: 1px 6px;
+      border-width: 2px;
+      border-style: outset;
+      border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+      border-image: initial;
+  }
+    
