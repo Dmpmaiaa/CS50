@@ -1,5 +1,5 @@
 body{
-    position: absolute;
+position: absolute;
 width: 100%;
 height: 100%;   
 font-family: arial, sans-serif;
@@ -10,7 +10,8 @@ overflow: hidden;
 #topMenu{
     
     text-align: right;
-    margin: 25px;
+    padding-top: 10px;
+    margin-right: 25px;
   
 }
 
@@ -75,20 +76,36 @@ margin-top: 30px;
     min-width: 54px;
     text-align: center;
     cursor: pointer;
-    
-
 }
 
-#botPage{
-    display:block;
-    bottom: 0;
-    position: fixed;
-    background-color: #f2f2f2;
-    width: 100%;
-    }
 
 
 
 #footer{
-    display: flex;
+
+ height: 45px;
+ width: 100%;
+ background-color: #f2f2f2;
+margin-top: 140px;
+margin-left: -7px;
+ 
+}
+
+#botMenu{
+    height: 45px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    margin-left: -7px;
+   
+
+}
+
+
+.ftext{
+   
+    padding-left: 20px;
+    padding-bottom: 50px;
+    text-decoration: none;
+     margin-top: 10px;
 }
