@@ -1,62 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Google</title>
 </head>
-<body>
-    
-    <main>
-        <div id="TopNav">
-          <a class="text">Gmail</a>
-          <a class="text" href="https://www.google.pt/imghp?hl=en&amp;tab=wi&amp;authuser=0&amp;ogbl">Images</a>
-          <a class="text">Apps</a>
-          <div id="email">
-            <a><img id="D" src="https://lh3.googleusercontent.com/ogw/ADGmqu-ujfkFAEegyZEbVKJ6NUlap_vwEz_kgYqIhyf9=s83-c-mo" </a>
-          </div>
-        </div>
-    
-        <section id="MidPage">
-          <img id="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-          <form action="https://google.com/search">
-              <input id="searchbox" type="text" name="q">
-              <input type="submit value="Google Search">
-               
-              <button type="submit" class="btns">Pesquisa Google</button>
-              <button type="submit" class="btns">Sinto-me com sorte</button>
-        
-              <p>Disponibilizado pelo Google em: <span style="color:blue;">English</span>
-              </p>
-              
-          </form>
-        </section>
-    
-        <div id="footer">
-          <div id="box1">
-          <p>Portugal</p>
-          </div>
-          <div id="box2">
-            <div id="left_list">
-              <span>
-                <a class="botLI">Publicidade</a>
-                <a class="botLI">Negócios</a>
-                <a class="botLI">Sobre</a>
-                <a class="botLI">Como funciona a Pesquisa</a>
-              </span>
-            </div>
-            <div id="right_list">
-              <span>
-                <a class="botLI">Privacidade</a>
-                <a class="botLI">Termos</a>
-                <a class="botLI">Definições</a>
-              </span>
-            </div>
-          </div>
-        </div>
-    
-      </main>
 
+<body>
+    <div id="topMenu">
+        <a href="#" class="topMenuText">Gmail</a>
+        <a href="#" class="topMenuText">Images</a>
+        <a href="#" class="topMenuText">Google Advanced Search</a>
+    </div>
+
+    <div id="main">
+        
+        <img id="googleImage" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+
+
+ 
+    <form action="https://google.com/search">
+        <div id="searchbox">
+        <input maxlenght="2048" type="text" name="q" title="Search">
+        </div>
+        <input class="buttons" type="submit" value="Google Search">
+        <input class="buttons" type="submit" value="I'm Feeling Lucky">
+
+    </form>
+</div>
+
+<div id="botPage">
+<p>Portugal</p>
+<div id="footer">
+<div id="bottomLeftMenu">
+    <a class="bottomLeftText" href="#">Advertising</a>
+    <a class="bottomLeftText" href="#">Business</a>
+    <a class="bottomLeftText" href="#">About</a>
+    <a class="bottomLeftText" href="#">How Search wokrs</a>
+</div>
+<div id="bottomRightMenu">
+    <a class="bottomRightText" href="#">Privacy</a>
+    <a class="bottomRightText" href="#">Terms</a>
+    <a class="bottomRightText" href="#">Settings</a>
+</div>
+</div>
+
+</div>
 </body>
+
 </html>
