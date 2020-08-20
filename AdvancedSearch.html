@@ -20,6 +20,7 @@
         <h1>Advanced Search</h1>
     </div>
 
+<form action="/search" id="mainForm" method="GET" name="f">
 
     <div class=lft1>
         <div class="lft2">
@@ -31,39 +32,45 @@
             <span>To do this in the searchbox.</span>
         </div>
     </div>
+
+
     <div>
         <div>
-        <div>
-            <label for ="allWords">all these words:</label>
+            <label for ="input1">all these words:</label>
         </div>
         <div> 
-            <input class="textinput">
+            <input class="textinput" value="" autofocus="autofocus" id="input1" name="as_q" type="text">
         </div>
+        <div>
+            Type the important words: <span class="SBSpan"> tri-colour rat terrier</span>
+        </div>
+       </div>
+    
+
+    <div>
+        <div>
+            <label for ="input2">all these words:</label>
+        </div>
+        <div><input class="textinput" value="" autofocus="autofocus" id="input2" name="as_epq" type="text"></div>
+        <div>
+            Put the exact words in quotes: <span class="SBSpan"> "rat terrier"</span>
         </div>
     </div>
 
     <div>
         <div>
-            <label for ="allWords">all these words:</label>
+            <label for ="input3">any of these words</label>
         </div>
-        <div><input class="textinput"></div>
-        <div></div>
+        <div><input class="textinput" value="" autofocus="autofocus" id="input3" name="as_oq" type="text"></div>
+        <div> Type OR between all the words you want: <span class="SBSpan">miniature OR standard</span></div>
     </div>
 
     <div>
         <div>
-            <label for ="allWords">all these words:</label>
+            <label for ="input4">none of these words</label>
         </div>
-        <div><input class="textinput"></div>
-        <div></div>
-    </div>
-
-    <div>
-        <div>
-            <label for ="allWords">all these words:</label>
-        </div>
-        <div><input class="textinput"></div>
-        <div></div>
+        <div><input class="textinput" value="" autofocus="autofocus" id="input4" name="as_eq" type="text"></div>
+        <div>Put a minus sign just before words that you don't want: <span class="SBSpan">-rodent, -"Jack Russel"</span></div>
     </div>
 
     <div>
@@ -79,5 +86,6 @@
 
 </div>
 
+</form>
 </body>
 </html>
