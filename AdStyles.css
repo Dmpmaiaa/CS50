@@ -1,0 +1,171 @@
+body{
+    position: absolute;
+    width: 100%;       
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    overflow-x: hidden;
+    
+
+}
+
+#header{
+    padding: 10px ;
+    margin-top: -10px;
+    margin-left: -10px;
+    display: block;
+    background: #f1f1f1;
+    height: 45px;
+}
+
+.header-img{
+    margin-left: 10px;
+    margin-top: 7px;   
+    padding-bottom:5px;
+    max-width: 152px;
+    min-width: 152px;
+
+}
+
+#header img{
+    cursor: pointer;
+    width: 92px;
+    height: 33px;
+    display: block;
+}
+
+#topMenu{
+    margin-top: -25px;
+    margin-right: 20px;
+float:right;
+}
+
+.topMenuText{
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+}
+
+#title{
+ color: #d93025;
+ font-size: 20px;
+ margin: 25px 35px;
+}
+
+#title-spacing{
+border-bottom: 1px solid #ebebeb;
+}
+
+/* form */
+
+.lft1{
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+}
+.left2{
+
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.right1{
+    display: inline-block;
+    width: 33%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+
+.inpt{
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+.inpt-a{
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.form{
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.form2{
+    padding-right: 16px;
+}
+
+.SBSpan{
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
+
+.textinput{
+    width:100%;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+.inpt-2{
+    display: inline-block;
+    width: 32%;
+    min-width: 160px;
+    margin: 0 0 8px 1%;
+    color: #555;
+    font-size: 11px;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: relative;
+}
+    .full-line{
+        clear: both;
+    }
+
+#main{
+    margin:40px;
+}
+
+
+.textinput:focus{
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+
+.button{
+    text-align: center;
+    user-select: none;
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    border-radius: 5px;
+    color: #fff;
+}

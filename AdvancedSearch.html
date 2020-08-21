@@ -4,33 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="AdStyles.css">
     <title>Google Advanced Search</title>
 </head>
 
 <body>
-    <div>
+    <div class="top-bar">
 
         <div id="header">
-            <img href="index.html" id="google.img"
-                src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-            <span id="topmenu">
-                <div id="topMenu">
-                    <div><a href="https://gmail.com" class="topMenuText UL_M">Gmail</a></div>
-                    <div><a href="Google_images.html" class="topMenuText UL_M">Images</a></div>
-                    <div class=asDiv> <a class="asTm" href="AdvancedSearch.html" class="topMenuText">Advanced Search</a>
-                    </div>
+            <div class="header-img">
+                <a href="index.html"><img id="google.img"
+                        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></a>
+            </div>
 
-                </div>
+            <div id="topMenu">
+                <a style="margin-left: 900px; " href="https://gmail.com" class="topMenuText UL_M">Google Search</a>
+                <a href="Google_images.html" class="topMenuText">Images</a>
+                <a href="AdvancedSearch.html" class="topMenuText">Advanced Search</a>
 
-            </span>
+            </div>
+
+
         </div>
     </div>
-
-    <div id="title">
-        <h1>Advanced Search</h1>
+    <div id="title-spacing">
+        <div id="title">
+            <label style="margin-left: 10px;">Advanced Search</label>
+        </div>
     </div>
-
+    <div id="main">
     <form action="https://google.com/search" id="mainForm" method="GET" name="f">
+        
 
         <div class=lft1>
             <div class="lft2">
@@ -44,55 +48,103 @@
         </div>
 
 
-        <div>
-            <div>
-                <label for="input1">all these words:</label>
+        <div class="full-line">
+            <div class="inpt">
+                <div class="inpt-all">
+                    <label for="input1">all these words:</label>
+                </div>
             </div>
-            <div>
-                <input class="textinput" value="" autofocus="autofocus" id="input1" name="as_q" type="text">
+
+
+            <div class="form">
+                <div class="form2">
+                    <input class="textinput" value="" autofocus="autofocus" id="input1" name="as_q" type="text">
+                </div>
             </div>
-            <div>
-                Type the important words: <span class="SBSpan"> tri-colour rat terrier</span>
+            <div class="inpt-2">
+                <div class="inpt-all">
+                    Type the important words: <span class="SBSpan"> tri-colour rat terrier</span>
+                </div>
             </div>
         </div>
 
 
-        <div>
-            <div>
-                <label for="input2">all these words:</label>
+        <div class="full-line">
+            <div class="inpt">
+                <div class="inpt-all">
+                    <label for="input2">this exact word or phrase:</label>
+                </div>
             </div>
-            <div><input class="textinput" value="" autofocus="autofocus" id="input2" name="as_epq" type="text"></div>
-            <div>
+            <div class="form">
+                <div class="form2">
+                    <input class="textinput" value="" autofocus="autofocus" id="input2" name="as_epq" type="text">
+                </div>
+            </div>
+
+            <div class="inpt-2">
+            <div class="inpt-all">
                 Put the exact words in quotes: <span class="SBSpan"> "rat terrier"</span>
             </div>
+            </div>
         </div>
 
-        <div>
-            <div>
-                <label for="input3">any of these words</label>
+        <div class="full-line">
+            <div class="inpt">
+                <div class="inpt-all">
+                    <label for="input3">any of these words</label>
+                </div>
             </div>
-            <div><input class="textinput" value="" autofocus="autofocus" id="input3" name="as_oq" type="text"></div>
-            <div> Type OR between all the words you want: <span class="SBSpan">miniature OR standard</span></div>
+            <div class="form">
+                <div class="form2">
+                    <input class=" textinput" value="" autofocus="autofocus" id="input3" name="as_oq" type="text">
+                </div>
+            </div>
+            <div class="inpt-2">
+                <div class="inpt-all">
+                    Type OR between all the words you want: <span class="SBSpan">miniature OR standard</span>
+                </div>
+            </div>
         </div>
 
-        <div>
-            <div>
-                <label for="input4">none of these words</label>
+        <div class="full-line">
+            <div class="inpt">
+                <div class="inpt-all">
+                    <label for="input4">none of these words</label>
+                </div>
             </div>
-            <div><input class="textinput" value="" autofocus="autofocus" id="input4" name="as_eq" type="text"></div>
-            <div>Put a minus sign just before words that you don't want: <span class="SBSpan">-rodent, -"Jack
-                    Russel"</span></div>
+
+
+
+            <div class="form">
+                <div class="form2">
+                    <input class="textinput" value="" autofocus="autofocus" id="input4" name="as_eq" type="text">
+                </div>
+            </div>
+            <div class="inpt-2">
+                <div class="inpt-all">Put a minus sign just before words that you don't want: <span class="SBSpan">-rodent, -"Jack
+                    Russel"</span>
+                </div>
+                </div>
         </div>
+
+
+
+
+
 
         <div>
             <input id="CIGjud" name="tbs" type="hidden" value="">
-            <input class="button" style="line-height:100%;height:30px;min-width:120px" value="Advanced Search" type="submit">
+            <input class="button" style="line-height:100%;height:30px;min-width:120px" value="Advanced Search"
+                type="submit">
         </div>
+    
     </form>
 
     <div>
         You can also...
-        <ul>
+    </div>
+    <div>
+        <ul>    
             <a href="https://google.com">
                 <li>Find pages that are similar to a URL</li>
             </a>
@@ -106,7 +158,9 @@
                 <li>Customise your search settings</li>
             </a>
         </ul>
+
     </div>
+</div>
 
     <div id="botBars">
         <div id="footer">
