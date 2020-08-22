@@ -288,7 +288,7 @@ border-bottom: 1px solid #ebebeb;
 /* Hover */
 
 
-.topMenuText:hover{
+.txthover:hover{
     text-decoration: underline;
 }
 
