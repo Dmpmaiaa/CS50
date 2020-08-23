@@ -1,9 +1,10 @@
 body{
     position: absolute;
+    height: 100vh;
     width: 100%;       
     font-family: arial, sans-serif;
     font-size: 13px;
-    overflow-x: hidden;
+    overflow: hidden;
     
 
 }
@@ -238,7 +239,7 @@ border-bottom: 1px solid #ebebeb;
 
 
 
-
+/* Footer */
 
 
 
@@ -246,6 +247,7 @@ border-bottom: 1px solid #ebebeb;
     position: absolute;
      width: 100%;
     margin-left: -7px;
+    bottom: 5px;
   
 }
 
