@@ -5,8 +5,6 @@ body{
     font-family: arial, sans-serif;
     font-size: 13px;
     overflow: hidden;
-    
-
 }
 
 #header{
@@ -24,7 +22,6 @@ body{
     padding-bottom:5px;
     max-width: 152px;
     min-width: 152px;
-
 }
 
 #header img{
@@ -37,7 +34,7 @@ body{
 #topMenu{
     margin-top: -25px;
     margin-right: 20px;
-float:right;
+    float:right;
 }
 
 .topMenuText{
@@ -47,14 +44,16 @@ float:right;
 }
 
 #title{
- color: #d93025;
- font-size: 20px;
- margin: 25px 35px;
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
 }
 
+
 #title-spacing{
-border-bottom: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
 }
+
 
 /* form */
 
@@ -68,12 +67,15 @@ border-bottom: 1px solid #ebebeb;
     color: #333;
     vertical-align: middle;
 }
+
+
 .left2{
 
     height: 30px;
     display: table-cell;
     vertical-align: middle;
 }
+
 
 .blank-div{
     display: inline-block;
@@ -95,6 +97,7 @@ border-bottom: 1px solid #ebebeb;
     vertical-align: middle;
 }
 
+
 .right1{
     display: inline-block;
     width: 33%;
@@ -104,14 +107,15 @@ border-bottom: 1px solid #ebebeb;
     padding-left: 5px;
     vertical-align: middle;
     margin-left: -150px;
-
 }
+
 
 .right2{
     height: 30px;
     display: table-cell;
     vertical-align: middle
 }
+
 
 .inpt{
     display: inline-block;
@@ -124,25 +128,27 @@ border-bottom: 1px solid #ebebeb;
     vertical-align: middle;
 }
 
+
 .inpt-a{
     height: 30px;
     display: table-cell;
     vertical-align: middle;
 }
 
+
 .form{
     display: inline-block;
     min-width: 167px;
     min-height: 41px;
     vertical-align: middle;
-    width: 50%;
-    
+    width: 50%;    
 }
 
+
 .form2{
-    padding-right: 16px;
-    
+    padding-right: 16px;    
 }
+
 
 .SBSpan{
     color: #666;
@@ -150,6 +156,7 @@ border-bottom: 1px solid #ebebeb;
     font-size: 11px;
     white-space: pre;
 }
+
 
 .textinput{
     width:70%;
@@ -160,6 +167,7 @@ border-bottom: 1px solid #ebebeb;
     height: 25px;
     padding: 1px 8px;
 }
+
 
 .inpt-2{
     display: inline-block;
@@ -173,13 +181,16 @@ border-bottom: 1px solid #ebebeb;
     margin-left: -160px;
 
 }
-    .full-line{
-        clear: both;
-    }
+
+.full-line{
+    clear: both;
+}
+
 
 #main{
     margin:40px;
 }
+
 
 
 .textinput:focus{
@@ -187,6 +198,7 @@ border-bottom: 1px solid #ebebeb;
     border: 1px solid #4d90fe;
     outline: none;
 }
+
 
 .butt-div{
     text-align: center;
@@ -227,8 +239,7 @@ border-bottom: 1px solid #ebebeb;
 }
 
 .etc-container{
-    clear:both;
-   
+    clear:both;  
 }
 
 .etc-text{
@@ -245,10 +256,9 @@ border-bottom: 1px solid #ebebeb;
 
 #botBars{
     position: absolute;
-     width: 100%;
+    width: 100%;
     margin-left: -7px;
-    bottom: 5px;
-  
+    bottom: 5px; 
 }
 
 
@@ -259,8 +269,6 @@ border-bottom: 1px solid #ebebeb;
  width: 100%;
  background-color: #f2f2f2;
  border-bottom: 1px solid #e4e4e4;
- 
- 
 }
 
 #botMenu{
@@ -268,16 +276,12 @@ border-bottom: 1px solid #ebebeb;
  width: 100%;
  background-color: #f2f2f2;
  padding-top: 18px;
-
-
 }
 
 .ftext{
     color: #6f6f6f;
     padding-left: 30px;
-    text-decoration: none;
-
-    
+    text-decoration: none;   
 }
 
 
