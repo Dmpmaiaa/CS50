@@ -285,6 +285,7 @@ border-bottom: 1px solid #ebebeb;
 
 .txthover:hover{
     text-decoration: underline;
+    opacity: .80;
 
 }
 

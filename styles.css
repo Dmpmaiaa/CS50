@@ -143,7 +143,7 @@ body{
    /* Hovers--Focus */
    
    .UL_M:hover{
-       opacity: .85;
+       opacity: .80;
        text-decoration: underline;
    }
    
